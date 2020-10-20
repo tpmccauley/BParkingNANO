@@ -10,5 +10,5 @@ cmssw_compile:
   variables:
     CMS_PATH: /cvmfs/cms.cern.ch
     CMSSW_RELEASE: CMSSW_10_2_15
-    script:
-      - /bin/bash ./.gitlab/build.sh
+  script:
+    - /bin/bash ./.gitlab/build.sh
