@@ -17,6 +17,6 @@ git checkout -b from-CMSSW_10_2_15__ID-2020Jul26-depth13-700__WithFinalReg crove
 git cms-addpkg TrackingTools/TransientTrack
 git cms-merge-topic -u CMSBParking:GsfTransientTracks
 git cms-merge-topic -u CMSBParking:fixKinParticleVtxFitter
-ls -R ${CI_PROJECT_DIR}
+mv ${CI_PROJECT_DIR}/BParkingNano ${CMSSW_BASE}/src/PhysicsTools
 git cms-addpkg PhysicsTools/NanoAOD
 scram b
